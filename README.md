@@ -16,22 +16,22 @@ Modifiers come at the end of the word/sentence.
 	{word}					changes default background search to word
 The slide (Hello all!){man waving} will have a man waving background.
 
-	[N]						pauses N tenths of a second
+	[N]					pauses N tenths of a second
 The slide (Hi!)[10] will have an extra 10 tenths of second screen time added to its default time. Default times depend on the number of letters of the slide and its puntuations symbols.
 
-	*						doesn't change background for that slide
+	*					doesn't change background for that slide
 The slide (Hello world!)* will have the previos slide's background. If it is the first slide, it will have a black background.
 
 ## Grammar
 You can find the complete Grammar in lazyvideo.g4.
 
 ## Example
-	(Instead of)						{arrow}					[10]
-	("Have a nice day")					{sunny day}				[5]
-	(think I'll start saying)			{start}					[5]
+	(Instead of)				{arrow}				[10]
+	("Have a nice day")			{sunny day}			[5]
+	(think I'll start saying)		{start}				[5]
 	("Have the day you deserve")		{angry man drawing}		[5]
-	(You know,)							{karma}					[5]
-	(let Karma sort that shit out.)		*						[10]
+	(You know,)				{karma}				[5]
+	(let Karma sort that shit out.)		*				[10]
 
 ## Execution
 
